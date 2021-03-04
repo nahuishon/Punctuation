@@ -217,6 +217,11 @@ body{
     /* Extra small devices (phones, 480px and down) */
 @media only screen and (max-width: 480px) {
   
+  body{
+    width: 100%;
+    max-width: 80em;
+    margin: 0 auto;
+}
   .topnav{
     background-color: black;
     overflow: hidden;
@@ -231,7 +236,7 @@ body{
      text-decoration: none;
      margin-left: 10px;
      font-size: 20px;
-     width: 30.33%; 
+     width: 28.33%; 
      text-align: center; /* If you want the text to be centered */
     }
    
@@ -284,7 +289,7 @@ body{
           font-size: 1.5em;
           margin: 0 auto;
           width: 15%;
-          padding: 8px;
+          padding: 28px;
           border: 2px solid;
           border-color: #ffffff;
           background-color: rgba(16, 16, 16, 0.2);
