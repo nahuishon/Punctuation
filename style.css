@@ -226,7 +226,7 @@ main{
        position: absolute;
        background-color: #000000;
        box-sizing: 30px 30px;
-       z-index: 1;
+       
        }
       
      .dropdown-content a {
