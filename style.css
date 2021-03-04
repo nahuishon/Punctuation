@@ -65,16 +65,14 @@ body{
  display: block;
 }
 
-main{
-    background-color: black;
-    border-style:solid;
-    border-color: rgb(196, 255, 210);
-    border-width: 5px 5px 5px 5px;
-    margin: 50px;
-    margin-top: 800px;
-    margin-bottom: 810px;
-    text-decoration: none;
-    }
+.puzzle{
+  background-color: black;
+  border: 2px solid black;
+  margin: auto;  
+  padding: 370px;
+  border: 2px solid rgb(253, 253, 255);
+  text-align: center;
+  }
 
 #can{
     position: absolute;
@@ -101,7 +99,7 @@ main{
 
 .button {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 300px;
   font-size: 1.5em;
   margin: 0 auto;
   width: 15%;
