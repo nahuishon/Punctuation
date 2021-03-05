@@ -86,12 +86,12 @@ main{
   padding: 28px;
   border: 5px solid;
   border-color: #c3fab3;
-  background-color: rgba(16, 16, 16, 0.2);
+  background-color: #c3fab3(16, 16, 16, 0.2);
   transition: 0.35s;
 }
 .button a, active {
   text-decoration: none;
-  color: #fffffd;
+  color: #fcfcfa;
 }
 .button a:hover {
   text-decoration: none;
