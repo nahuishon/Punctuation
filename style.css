@@ -65,15 +65,6 @@ body{
  display: block;
 }
 
-.puzzle{
-  background-color: black;
-  border: 2px solid black;
-  margin: auto;  
-  padding: 370px;
-  border: 2px solid rgb(253, 253, 255);
-  text-align: center;
-  }
-
 #can{
     position: absolute;
     left:50%;
@@ -82,21 +73,10 @@ body{
     background-color: #000000;
     border:0px solid #040b24; 
 }
-#score_board{
-    position: absolute;
-    left:50%;
-    top:50%;
-    transform: translate(-50%,-50%);
-    width:484px;
-    height: 480px;
-    text-align: center;
-    padding: 12px;
-    background-color: transparent;
-    color: #ccc;
-    font-size: 2.0em;
-    font-family: monospace;
-}
 
+main{
+  margin-top: 700px;
+}
 .button {
   text-align: center;
   margin-top: 300px;
